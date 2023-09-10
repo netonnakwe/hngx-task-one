@@ -6,11 +6,24 @@
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img {
-    border-radius: 15px;
+html {
+    padding: 1rem;
 }
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+img {
+    max-width: 100%;
+    width: 40%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.data {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
